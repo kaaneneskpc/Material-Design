@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".SecondActivity"
+    android:background="@drawable/sle">
 
     <Button
         android:id="@+id/buttonNextPage"
         android:layout_width="129dp"
         android:layout_height="53dp"
-        android:layout_marginTop="492dp"
+        android:layout_marginTop="540dp"
         android:background="@drawable/btn_special"
         android:text="Next Page"
         android:textColor="#344747"
