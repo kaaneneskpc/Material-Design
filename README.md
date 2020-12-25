@@ -8,9 +8,11 @@ Material design is a comprehensive guide for visual, motion, and interaction des
 
 Android provides the following features to help you build material design apps:
 
-A material design app theme to style all your UI widgets
-Widgets for complex views such as lists and cards
-New APIs for custom shadows and animations
+-A material design app theme to style all your UI widgets
+<br>
+-Widgets for complex views such as lists and cards
+<br>
+-New APIs for custom shadows and animations
 
 # Introduction
 
