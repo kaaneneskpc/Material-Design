@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonPass"
+        android:layout_width="129dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="149dp"
+        android:background="@drawable/btn_special"
+        android:text="NextPage"
+        android:textColor="#344747"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="NextPage" />
+
+    <Button
+        android:id="@+id/buttonSpecial"
+        android:layout_width="129dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/btn_special"
+        android:text="Special"
+        android:textColor="#344747"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonNormal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Special" />
+
+    <Button
+        android:id="@+id/buttonNormal"
+        android:layout_width="129dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/btn_special"
+        android:text="Normal"
+        android:textColor="#344747"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSpecial"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Normal" />
+</android.support.constraint.ConstraintLayout>
