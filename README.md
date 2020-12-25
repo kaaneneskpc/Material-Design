@@ -1,6 +1,16 @@
 # Material-Design
 
-This apps includes material design structures by providing user interaction
+This apps includes material design structures by providing user interaction.
+
+## Material Design for Android
+Material design is a comprehensive guide for visual, motion, and interaction design across platforms and devices. To use material design in your Android apps, follow the guidelines defined in the material design specification and use the new components and styles available in the material design support library. This page provides an overview of the patterns and APIs you should use.
+
+
+Android provides the following features to help you build material design apps:
+
+A material design app theme to style all your UI widgets
+Widgets for complex views such as lists and cards
+New APIs for custom shadows and animations
 
 # Introduction
 
